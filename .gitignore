@@ -2,3 +2,4 @@ plantuml-*.jar
 .vscode/
 __pycache__/
 *.pyc
+sample/*.pdf
