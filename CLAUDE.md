@@ -49,15 +49,6 @@ SheHui/
 5. 必背清单
 6. PlantUML 图形以 ` ```plantuml ` 代码块形式嵌入文档中（放在对应内容附近）
 
-## 常用命令
-
-```bash
-# 从 markdown 文档中提取并渲染 PlantUML 图形
-java -jar plantuml-1.2026.3.jar -tpng 历史/中国古代史/先秦/夏商周.md
-
-# 渲染独立的 .puml 文件
-java -jar plantuml-1.2026.3.jar -tpng 综合/百家争鸣思维导图.puml
-```
 
 ## 考试信息
 
@@ -72,5 +63,5 @@ java -jar plantuml-1.2026.3.jar -tpng 综合/百家争鸣思维导图.puml
 * 每个考点标记掌握等级（■ 背/ ◆ 理解/ ○ 了解）
 * 社会分三科：历史、地理、道法，文档分开存放
 * PlantUML 以 ` ```plantuml ` 代码块嵌入 markdown 文档中，放在对应考点附近
-* 独立的 `.puml` 文件放在 `综合/` 目录（备用）
+* 如果有新的试卷加入，我让你做知识点遗漏的补充时，参考"考卷处理工作流程.md"
 
